@@ -1,0 +1,8 @@
+{
+  "name": "Youtrainers",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "*",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
