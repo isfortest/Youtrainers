@@ -1,4 +1,4 @@
-describe('scheduleAworkshop.cy.js', () => {
+describe('schedule A workshop.cy.js', () => {
     it('should schedule a workshop', () => {
         cy.visit("https://www.youtrainers.com/");
         cy.url().should('eq', 'https://www.youtrainers.com/');
@@ -9,7 +9,7 @@ describe('scheduleAworkshop.cy.js', () => {
         cy.wait(1000);
         cy.get('#mat-input-2').type('Testeur01@');
         cy.wait(2000);
-//cy.get('.mat-icon.ng-star-inserted').click()
+        //cy.get('.mat-icon.ng-star-inserted').click()
         cy.get('.mat-dialog-actions').find('button').contains('Sign in').should('not.be.disabled').click();
         cy.wait(2000);
         cy.get('app-header a').find('span').contains('Schedule a workshop').click();
