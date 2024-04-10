@@ -1,5 +1,5 @@
 describe('signinThenSignout.cy.js', () => {
-    it('visit jetbrains.com', () => {
+    it('sign in Then Sign out', () => {
       cy.visit("https://www.staging.youtrainers.com/");
       cy.url().should('eq', 'https://www.staging.youtrainers.com/');
       cy.wait(1000);
