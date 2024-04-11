@@ -4,41 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="530ef634-840b-4b30-a70f-e3d6529a53da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Youtrainers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="530ef634-840b-4b30-a70f-e3d6529a53da" name="Changes" comment="add reporterOptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/MaterialIcons-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/MaterialIcons-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/app.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-light-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-medium-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-medium-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-regular-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/SingInUsingLinkedIn.cy.js/SingInUsingLinkedIn.cy.js -- visit jetbrains.com (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/forgotPassword.cy.js/forgotPassword.cy.js -- Cas non passant 3 - Should not reset password (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/scheduleAworkshop.cy.js/scheduleAworkshop.cy.js -- should schedule a workshop (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signinThenSignout.cy.js/signinThenSignout.cy.js -- visit jetbrains.com (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signing.cy.js/signing.cy.js -- should not signing - cas non passant 2 (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 2 (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 3 (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 4 (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/SingInUsingLinkedIn.cy.js/SingInUsingLinkedIn.cy.js -- visit jetbrains.com (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/forgotPassword.cy.js/forgotPassword.cy.js -- Cas non passant 3 - Should not reset password (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/scheduleAworkshop.cy.js/scheduleAworkshop.cy.js -- should schedule a workshop (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signinThenSignout.cy.js/signinThenSignout.cy.js -- visit jetbrains.com (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signing.cy.js/signing.cy.js -- should not signing - cas non passant 2 (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/signing.cy.js/signing.cy.js -- should not signing - cas non passant 2 (failed).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 2 (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 3 (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 4 (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signing.cy.js/signing.cy.js -- should not signing - cas non passant 2 (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +57,8 @@
       <workItem from="1712711447539" duration="1195000" />
       <workItem from="1712774390426" duration="7278000" />
       <workItem from="1712785566579" duration="3507000" />
-      <workItem from="1712795852741" duration="2648000" />
+      <workItem from="1712795852741" duration="2817000" />
+      <workItem from="1712828620414" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="edit title describe">
       <option name="closed" value="true" />
@@ -130,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712777988651</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add reporterOptions">
+      <option name="closed" value="true" />
+      <created>1712798659436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712798659436</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
