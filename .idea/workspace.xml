@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530ef634-840b-4b30-a70f-e3d6529a53da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/e2e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Youtrainers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/MaterialIcons-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/MaterialIcons-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/app.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-light-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-medium-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-medium-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/assets/roboto-regular-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/SingInUsingLinkedIn.cy.js/SingInUsingLinkedIn.cy.js -- visit jetbrains.com (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/forgotPassword.cy.js/forgotPassword.cy.js -- Cas non passant 3 - Should not reset password (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/scheduleAworkshop.cy.js/scheduleAworkshop.cy.js -- should schedule a workshop (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signinThenSignout.cy.js/signinThenSignout.cy.js -- visit jetbrains.com (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signing.cy.js/signing.cy.js -- should not signing - cas non passant 2 (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 2 (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 3 (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 4 (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/SingInUsingLinkedIn.cy.js/SingInUsingLinkedIn.cy.js -- visit jetbrains.com (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/forgotPassword.cy.js/forgotPassword.cy.js -- Cas non passant 3 - Should not reset password (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/scheduleAworkshop.cy.js/scheduleAworkshop.cy.js -- should schedule a workshop (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signinThenSignout.cy.js/signinThenSignout.cy.js -- visit jetbrains.com (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signing.cy.js/signing.cy.js -- should not signing - cas non passant 2 (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/signing.cy.js/signing.cy.js -- should not signing - cas non passant 2 (failed).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 2 (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 3 (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should not signup - cas non passant 4 (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,26 +48,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2et6I1uassAkaBT3ZGtnaSUZFOi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zakso/ProjetNode/Youtrainers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,10 +86,72 @@
       <option name="presentableId" value="Default" />
       <updated>1712711446294</updated>
       <workItem from="1712711447539" duration="1195000" />
+      <workItem from="1712774390426" duration="7278000" />
+      <workItem from="1712785566579" duration="3507000" />
+      <workItem from="1712795852741" duration="2648000" />
     </task>
+    <task id="LOCAL-00001" summary="edit title describe">
+      <option name="closed" value="true" />
+      <created>1712777792223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712777792223</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edit title describe">
+      <option name="closed" value="true" />
+      <created>1712777815355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712777815355</updated>
+    </task>
+    <task id="LOCAL-00003" summary="edit title spec">
+      <option name="closed" value="true" />
+      <created>1712777844316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712777844316</updated>
+    </task>
+    <task id="LOCAL-00004" summary="edit title spec">
+      <option name="closed" value="true" />
+      <created>1712777866620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712777866620</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add reporterOptions">
+      <option name="closed" value="true" />
+      <created>1712777988651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712777988651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="seconde commit to all the project specs" />
+    <MESSAGE value="edit title describe" />
+    <MESSAGE value="edit title spec" />
+    <MESSAGE value="add reporterOptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reporterOptions" />
   </component>
 </project>
