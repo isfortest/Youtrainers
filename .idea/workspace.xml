@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="530ef634-840b-4b30-a70f-e3d6529a53da" name="Changes" comment="add reporterOptions">
+    <list default="true" id="530ef634-840b-4b30-a70f-e3d6529a53da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signing.cy.js/signing.cy.js -- should not signing - cas non passant 2 (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/SingInUsingLinkedIn.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/SingInUsingLinkedIn.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/forgotPassword.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/forgotPassword.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/scheduleAworkshop.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/scheduleAworkshop.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/signinThenSignout.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/signinThenSignout.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/signing.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/signing.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/signup.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/signup.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/testUrl.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/testUrl.cy.js.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +65,9 @@
       <workItem from="1712774390426" duration="7278000" />
       <workItem from="1712785566579" duration="3507000" />
       <workItem from="1712795852741" duration="2817000" />
-      <workItem from="1712828620414" duration="1447000" />
+      <workItem from="1712828620414" duration="2663000" />
+      <workItem from="1712833229997" duration="205000" />
+      <workItem from="1712836875417" duration="1085000" />
     </task>
     <task id="LOCAL-00001" summary="edit title describe">
       <option name="closed" value="true" />
@@ -108,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712798659436</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add reportHtml">
+      <option name="closed" value="true" />
+      <created>1712830824675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712830824675</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add report medias (videos &amp; screens)">
+      <option name="closed" value="true" />
+      <created>1712830944210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712830944210</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +155,8 @@
     <MESSAGE value="edit title describe" />
     <MESSAGE value="edit title spec" />
     <MESSAGE value="add reporterOptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add reporterOptions" />
+    <MESSAGE value="add reportHtml" />
+    <MESSAGE value="add report medias (videos &amp; screens)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add report medias (videos &amp; screens)" />
   </component>
 </project>

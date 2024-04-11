@@ -15,6 +15,7 @@ module.exports = defineConfig({
   e2e: {
     // Configure your E2E tests here
     specPattern: "cypress/e2e/**/*.{cy,spec}.{js,ts}",
+    chromeWebSecurity: false,
     //PluginConfig cypress-mochawesome-reporter
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
