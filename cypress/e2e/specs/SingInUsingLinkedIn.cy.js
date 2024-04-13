@@ -1,6 +1,6 @@
 describe('SingInUsingLinkedIn.cy.js', () => {
     it('Sing in with LinkedIn', () => {
-      cy.visit("https://www.staging.youtrainers.com");
+      cy.visit("/");
       cy.url().should('eq', 'https://www.staging.youtrainers.com/');
       cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
       cy.get("button[class*='linkedIn']").click();

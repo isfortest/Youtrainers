@@ -1,6 +1,6 @@
 describe('signup.cy.js', () => {
     it('should not signup - cas non passant 1', () => {
-      cy.visit("https://www.staging.youtrainers.com");
+      cy.visit("/");
       cy.url().should('eq', 'https://www.staging.youtrainers.com/');
       cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
       cy.get('span[class=\'inscription-link\']').click();
@@ -15,7 +15,7 @@ describe('signup.cy.js', () => {
       cy.get('.mat-dialog-actions.dialog-actions').find('button').should('be.disabled');
     })
     it('should not signup - cas non passant 2',()=>{
-      cy.visit("https://www.staging.youtrainers.com");
+      cy.visit("/");
       cy.url().should('eq', 'https://www.staging.youtrainers.com/');
       cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
       cy.get('span[class=\'inscription-link\']').click();
@@ -30,7 +30,7 @@ describe('signup.cy.js', () => {
       cy.get('.mat-dialog-actions.dialog-actions').find('button').should('be.disabled');
     })
   it('should not signup - cas non passant 3',()=>{
-    cy.visit("https://www.staging.youtrainers.com");
+    cy.visit("/");
     cy.url().should('eq', 'https://www.staging.youtrainers.com/');
     cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
     cy.get('span[class=\'inscription-link\']').click();
@@ -45,7 +45,7 @@ describe('signup.cy.js', () => {
     cy.get('.mat-dialog-actions.dialog-actions').find('button').should('be.disabled');
   })
   it('should not signup - cas non passant 4',()=>{
-    cy.visit("https://www.staging.youtrainers.com");
+    cy.visit("/");
     cy.url().should('eq', 'https://www.staging.youtrainers.com/');
     cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
     cy.get('span[class=\'inscription-link\']').click();
@@ -57,12 +57,12 @@ describe('signup.cy.js', () => {
     cy.get('.mat-dialog-actions.dialog-actions').find('button').should('be.disabled');
   })
   it('should signup - cas passant',()=>{
-    cy.visit("https://www.staging.youtrainers.com");
+    cy.visit("/");
     cy.url().should('eq', 'https://www.staging.youtrainers.com/');
     cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
     cy.get('span[class=\'inscription-link\']').click();
-    cy.get('#mat-input-3').type('Ronald');
-    cy.get('#mat-input-4').type('ronal.maxim@gmail.com');
+    cy.get('#mat-input-3').type('Ronald1');
+    cy.get('#mat-input-4').type('ronal.maxim11@gmail.com');
     cy.get('#mat-input-5').type('Testeur22');
     cy.wait(2000);
     cy.get('.mat-icon.ng-star-inserted').click();

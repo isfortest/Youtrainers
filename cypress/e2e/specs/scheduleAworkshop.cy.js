@@ -1,7 +1,7 @@
-describe('schedule A workshop.cy.js', () => {
-    it('should schedule a workshop', () => {
-        cy.visit("https://www.youtrainers.com/");
-        cy.url().should('eq', 'https://www.youtrainers.com/');
+describe('schedule A workshop', () => {
+    it('Succes should schedule a workshop', () => {
+        cy.visit("/");
+        cy.url().should('eq', 'https://www.staging.youtrainers.com/');
         cy.wait(1000);
         cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
         cy.wait(1000);

@@ -1,7 +1,17 @@
 {
   "name": "Youtrainers",
   "version": "1.0.0",
+  "scripts": {
+    "test": "cypress open",
+
+    "cy:open": "npx cypress open --env allure=true --config specPattern=cypress/e2e/specs/** --browser chrome",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
+  },
+
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
     "cypress": "*",
     "cypress-mochawesome-reporter": "^3.8.2"
   }

@@ -1,6 +1,6 @@
 describe('signinThenSignout.cy.js', () => {
     it('sign in Then Sign out', () => {
-      cy.visit("https://www.staging.youtrainers.com/");
+      cy.visit("/");
       cy.url().should('eq', 'https://www.staging.youtrainers.com/');
       cy.wait(1000);
       cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();

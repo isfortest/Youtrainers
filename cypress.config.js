@@ -1,4 +1,5 @@
 const { defineConfig } = require('cypress')
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
@@ -11,14 +12,21 @@ module.exports = defineConfig({
     inlineAssets: true,
     saveAllAttempts: false,
   },
-  video: true,
   e2e: {
     // Configure your E2E tests here
     specPattern: "cypress/e2e/**/*.{cy,spec}.{js,ts}",
     chromeWebSecurity: false,
+    baseUrl: "https://www.staging.youtrainers.com",
     //PluginConfig cypress-mochawesome-reporter
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
-    },
+      allureWriter(on, config);
+      return config;
+      },
+
+    env: {
+      allureReuseAfterSpec: true
+    }
+
   },
 })
