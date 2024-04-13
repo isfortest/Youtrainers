@@ -1,4 +1,4 @@
-describe('testUrl.cy.js', () => {
+describe('YoutrainersUrl.cy.js', () => {
     it('visit staging.youtrainers.com', () => {
       cy.visit("/");
       cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
