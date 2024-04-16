@@ -61,8 +61,8 @@ describe('signup.cy.js', () => {
     cy.url().should('eq', 'https://www.staging.youtrainers.com/');
     cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
     cy.get('span[class=\'inscription-link\']').click();
-    cy.get('#mat-input-3').type('Ronald1');
-    cy.get('#mat-input-4').type('ronal.maxim11@gmail.com');
+    cy.get('#mat-input-3').type('Testname');
+    cy.get('#mat-input-4').type('testeur.test22@gmail.com');
     cy.get('#mat-input-5').type('Testeur22');
     cy.wait(2000);
     cy.get('.mat-icon.ng-star-inserted').click();

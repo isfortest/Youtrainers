@@ -6,12 +6,11 @@ describe('signinThenSignout.cy.js', () => {
       cy.get('button[class$=\'ng-star-inserted\'] span[class=\'mat-button-wrapper\']').click();
       cy.wait(1000);
       cy.get('#mat-input-1').type('testeur.tester0@gmail.com');
-      cy.wait(1000);
       cy.get('#mat-input-2').type('Testeur00@');
-      cy.wait(2000);
+      cy.wait(1000);
       //cy.get('.mat-icon.ng-star-inserted').click()
       cy.get('.mat-dialog-actions').find('button').contains('Sign in').should('not.be.disabled').click();
-      cy.wait(1000);
+      cy.wait(2000);
       cy.get('.mat-primary.mat-toolbar-single-row').find('button').last().click();
       cy.wait(1000);
       cy.get('#mat-menu-panel-0').find('button').contains('Sign out').click();

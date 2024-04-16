@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="530ef634-840b-4b30-a70f-e3d6529a53da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/specs/signinThenSignout.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/specs/signinThenSignout.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/SingInUsingLinkedIn.cy.js/SingInUsingLinkedIn.cy.js -- Sing in with LinkedIn (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/SingInUsingLinkedIn.cy.js/SingInUsingLinkedIn.cy.js -- Sing in with LinkedIn (failed).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/scheduleAworkshop.cy.js/schedule A workshop -- Succes should schedule a workshop (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/scheduleAworkshop.cy.js/schedule A workshop -- Succes should schedule a workshop (failed).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signinThenSignout.cy.js/signinThenSignout.cy.js -- sign in Then Sign out (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/signinThenSignout.cy.js/signinThenSignout.cy.js -- sign in Then Sign out (failed).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/signup.cy.js/signup.cy.js -- should signup - cas passant (failed).png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +70,8 @@
       <workItem from="1712914374106" duration="123000" />
       <workItem from="1712962409341" duration="6063000" />
       <workItem from="1713010166573" duration="7280000" />
-      <workItem from="1713123900289" duration="891000" />
+      <workItem from="1713123900289" duration="1670000" />
+      <workItem from="1713260206722" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="edit title describe">
       <option name="closed" value="true" />
@@ -171,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713016723952</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="auto edit workplace.xml file">
+      <option name="closed" value="true" />
+      <created>1713130785011</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713130785011</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +212,7 @@
     <MESSAGE value="rerun test after fix problem &quot;Timed out after waiting 60000ms for your remote page to load.&quot; by using chromeWebSecurity: false" />
     <MESSAGE value="rerun test after fix problems" />
     <MESSAGE value="Configure and generate report with Allure report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configure and generate report with Allure report" />
+    <MESSAGE value="auto edit workplace.xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="auto edit workplace.xml file" />
   </component>
 </project>
