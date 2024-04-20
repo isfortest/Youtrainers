@@ -35,6 +35,6 @@ describe('signing.cy.js', () => {
     cy.get('.mat-icon.ng-star-inserted').click();
     cy.get('.mat-dialog-actions').find('button').last().should('not.be.disabled').click();
     cy.wait(2000)
-    cy.url().should('include','')
+    cy.get('.mat-simple-snackbar > span').should('not.exist')
   })
 })
