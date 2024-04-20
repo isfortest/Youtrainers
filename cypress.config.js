@@ -2,6 +2,8 @@ const { defineConfig } = require('cypress')
 const { allureCypress } = require("allure-cypress/reporter");
 
 module.exports = defineConfig({
+  video: true,
+  videoUploadOnPasses: true,
   /*reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
     charts: true,
@@ -23,10 +25,6 @@ module.exports = defineConfig({
       allureCypress(on);
       return config;
       },
-
-    env: {
-      allureReuseAfterSpec: false
-    }
-
+    experimentalStudio: true
   },
 })
