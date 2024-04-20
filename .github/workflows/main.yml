@@ -1,7 +1,7 @@
 name: Cypress Tests
 on: [push]
 jobs:
- Cypress-Test:
+ Youtrainers-Test-with-Cypress:
    runs-on: ubuntu-latest
    steps:
      - name: Checkout GitCode
@@ -36,5 +36,5 @@ jobs:
        if: always()
        with:
          github_token: ${{ secrets.GITHUB_TOKEN }}
-         publish_branch: gh-pages
+         publish_branch: main
          publish_dir: allure-history
